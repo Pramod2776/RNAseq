@@ -214,12 +214,12 @@ clust_df = df %>%
 plot(hc5, cex = 0.6)
 rect.hclust(hc5, k = 10, border = 2:5)
 
-pdf(file = "GBM_hclust_ward.D2.pdf", height = 6, width = 7)
+pdf(file = "hclust_ward.D2.pdf", height = 6, width = 7)
 plot(hc5, cex = 0.6)
 rect.hclust(hc5, k = 10, border = 2:5)
 dev.off()
 
-pdf(file = "GBM_hclust_group_ward.D2.pdf", height = 8, width = 12)
+pdf(file = "hclust_group_ward.D2.pdf", height = 8, width = 12)
 fviz_cluster(list(data = df, cluster = sub_grp))
 dev.off()
 
