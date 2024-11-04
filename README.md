@@ -1,1 +1,1 @@
-# Exomeseq
+# RNAseq QC
